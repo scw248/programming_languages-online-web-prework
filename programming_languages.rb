@@ -26,5 +26,7 @@ end
           new_languages[:java] = { key => val , :style => [:oo] }
 end
 end
+end
+end
 new_languages
 end
