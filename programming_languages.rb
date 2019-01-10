@@ -15,5 +15,6 @@ end
         new_languages[:javascript] = { type , :style => [:oo, :functional]
 end
 end
+end
 new_languages
 end
