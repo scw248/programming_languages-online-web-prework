@@ -30,5 +30,7 @@ end
           new_languages[:clojure] = { key => val , :style => [style]}
 end
 end
+end
+end
 new_languages
 end
