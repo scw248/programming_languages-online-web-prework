@@ -9,7 +9,7 @@ def reformat_languages(languages)
       new_languages[:ruby] = { key => val }
       h2 = { "style" => style }
       binding.pry
-      new_languages.merge(h2)
+      new_languages.merge!(h2)
     end
 end
 end
