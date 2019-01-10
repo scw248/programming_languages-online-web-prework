@@ -11,7 +11,8 @@ def reformat_languages(languages)
       #new_languages.merge!(h2)
     end
 end
-    
+      if language == :javascript
+        new_languages[:javascript] = { type , :style => [:oo, :functional]
 end
 end
 new_languages
