@@ -8,12 +8,10 @@ def reformat_languages(languages)
       type.each do |key, val|
       new_languages[:ruby] = { key => val }
       h2 = { "style" => style }
-      binding.pry
       new_languages.merge!(h2)
     end
 end
 end
 end
-binding.pry
 new_languages
 end
