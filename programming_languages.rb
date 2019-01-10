@@ -25,6 +25,7 @@ end
 end
 end
       if language == :functional
+        binding.pry
         type.each do |key, val|
           new_languages[:clojure] = { key => val , :style => [style]}
 end
