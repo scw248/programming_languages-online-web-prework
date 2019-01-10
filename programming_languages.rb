@@ -21,6 +21,9 @@ end
           new_languages[:python] = { key => val , :style => [:oo] }
 end
 end
+      if language == :java
+        type.each do |key, val|
+          new_languages[:java] = { key => val , :style => [:oo] }
 end
 end
 new_languages
