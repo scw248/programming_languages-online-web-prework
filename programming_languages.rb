@@ -16,6 +16,11 @@ end
         new_languages[:javascript] = { key => val , :style => [:oo, :functional] }
 end
 end
+      if language == :python
+        type.each do |key, val|
+          new_languages[:python] = { key => val , :style => [:oo] }
+end
+end
 end
 end
 new_languages
