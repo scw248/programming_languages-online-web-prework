@@ -39,5 +39,7 @@ end
           new_languages[:scala] = { key => val , :style => [:functional] }
 end
 end
+end
+end
 new_languages
 end
