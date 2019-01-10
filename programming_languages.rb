@@ -34,6 +34,9 @@ end
           new_languages[:erlang] = { key => val , :style => [:functional] }
 end
 end
+      if language == :scala
+        type.each do |key, val|
+          new_languages[:scala] = { key => val , :style => [:functional] }
 end
 end
 new_languages
