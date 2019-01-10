@@ -13,5 +13,4 @@ def reformat_languages(languages)
 end
 end
 end
-new_languages
 end
