@@ -29,6 +29,11 @@ end
           new_languages[:clojure] = { key => val , :style => [style]}
 end
 end
+      if language == :erlang
+        type.each do |key, val|
+          new_languages[:erlang] = { key => val , :style => [:functional] }
+end
+end
 end
 end
 new_languages
