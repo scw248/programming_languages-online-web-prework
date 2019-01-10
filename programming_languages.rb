@@ -6,7 +6,7 @@ def reformat_languages(languages)
     hash.each do |language, type|
       if language == :ruby
       type.each do |key, val|
-      new_languages[:ruby] =  key => val 
+      new_languages[:ruby] = { key => val }
       h2 = { :style => style }
       new_languages.merge!(h2)
     end
