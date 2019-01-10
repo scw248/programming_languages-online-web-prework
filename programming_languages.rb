@@ -7,8 +7,8 @@ def reformat_languages(languages)
       if language == :ruby
       type.each do |key, val|
       new_languages[:ruby] = { key => val , :style => style}
-      h2 = { :style => style }
-      new_languages.merge!(h2)
+      #h2 = { :style => style }
+      #new_languages.merge!(h2)
     end
 end
 end
