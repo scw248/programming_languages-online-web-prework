@@ -12,7 +12,9 @@ def reformat_languages(languages)
     end
 end
       if language == :javascript
-        new_languages[:javascript] = { type , :style => [:oo, :functional]
+      type.each do |key, val|
+        new_languages[:javascript] = { key => val , :style => [:oo, :functional] }
+end
 end
 end
 end
